@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <GamePath>C:\Program Files (x86)\Steam\steamapps\common\Valheim</GamePath> <!-- You may not need this if the variable is already set in your .csproj -->
+    <PluginsPath>$(GamePath)\BepInEx\plugins</PluginsPath> <!-- The DLLs will be copied here. You may not need this if you don't use a mod manager -->
+    <Pdb2MdbPath>$(SolutionDir)\pdb2mdb.exe</Pdb2MdbPath><!-- You may not need this if the pdb2mdb.exe file is already in the solution directory or if you won't use debug at runtime -->
+  </PropertyGroup>
+</Project>
